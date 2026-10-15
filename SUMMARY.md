@@ -6,4 +6,3 @@
   * [3. Redes e interfaces](teoria-de-sistemas-operativos/3.-redes-e-interfaces.md)
   * [4. Software, licencias y distribuciones](teoria-de-sistemas-operativos/4.-software-licencias-y-distribuciones.md)
   * [Resumen y autoevaluación](teoria-de-sistemas-operativos/resumen-y-autoevaluacion.md)
-* [Pràctica de sistemes operatius](practica-de-sistemes-operatius.md)
