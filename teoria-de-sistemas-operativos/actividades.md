@@ -64,7 +64,7 @@ Con la tecla **F2**.
 
 **Adjunta una fotografía** de la pantalla de BIOS/UEFI, tomada con el móvil si se desea, procurando que se vea bien y que no aparezca nada más.
 
-<img src=".gitbook/assets/unknown.jpeg" alt="" height="252" width="456">
+<img src="../.gitbook/assets/unknown.jpeg" alt="" height="252" width="456">
 
 **Menciona cuatro características o utilidades significativas y configurables de la BIOS/UEFI:**
 
@@ -92,30 +92,30 @@ Crear una tarea básica de desfragmentación con estos requisitos:
 * Ejecutar solo cuando el usuario haya iniciado sesión.
 * Ejecutar con los privilegios más altos.
 
-<img src=".gitbook/assets/unknown.png" alt="" height="150" width="285">
+<img src="../.gitbook/assets/unknown.png" alt="" height="150" width="285">
 
-<img src=".gitbook/assets/unknown (2).png" alt="" height="249" width="348">
+<img src="../.gitbook/assets/unknown (2).png" alt="" height="249" width="348">
 
 **Proceso paso a paso:**
 
 1. **Abrir el Programador de tareas.** Pulsar **Windows + R**, escribir `taskschd.msc` y pulsar Aceptar.
 2. **Crear una tarea básica.** En el panel de la derecha, seleccionar «Crear tarea básica». En el campo Nombre, introducir, por ejemplo, **desfragmentación semanal**. La descripción es opcional; después, pulsar Siguiente.
 
-<img src=".gitbook/assets/unknown (3).png" alt="" height="366" width="524">
+<img src="../.gitbook/assets/unknown (3).png" alt="" height="366" width="524">
 
 3. **Configurar el desencadenador.** Seleccionar «Semanalmente». Configurar la fecha de inicio, establecer la hora en **00:00:00** y seleccionar únicamente el día **Domingo**. Pulsar Siguiente.
 
-<img src=".gitbook/assets/unknown (4).png" alt="" height="326" width="470">
+<img src="../.gitbook/assets/unknown (4).png" alt="" height="326" width="470">
 
-<img src=".gitbook/assets/unknown (5).png" alt="" height="335" width="481">
+<img src="../.gitbook/assets/unknown (5).png" alt="" height="335" width="481">
 
 4. **Configurar la acción.** Seleccionar «Iniciar un programa». En «Programa o script», introducir `C:\Windows\System32\Defrag.exe`. En «Agregar argumentos (opcional)», escribir `-c`, que indica que debe analizar y desfragmentar todos los volúmenes del sistema. Pulsar Siguiente.
 
-<img src=".gitbook/assets/unknown (6).png" alt="" height="306" width="443">
+<img src="../.gitbook/assets/unknown (6).png" alt="" height="306" width="443">
 
 5. **Configurar privilegios y condiciones.** Marcar la opción para abrir las propiedades avanzadas al finalizar. En la pestaña General, configurar que se ejecute solo cuando el usuario haya iniciado sesión y activar «Ejecutar con los privilegios más altos». Pulsar Aceptar para guardar la tarea.
 
-<img src=".gitbook/assets/unknown (7).png" alt="" height="295" width="428">
+<img src="../.gitbook/assets/unknown (7).png" alt="" height="295" width="428">
 
 
 
@@ -156,13 +156,13 @@ No, no es lo mismo. La desfragmentación reorganiza bloques de datos dentro de u
 
 Windows + R permite acceder a programas del sistema y aplicaciones. Comprobar qué utilidades abren los siguientes comandos y adjuntar una captura del resultado:
 
-| Comando        | Utilidad                                                                                                                                                                                                                                                                                                            |
-| -------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| `temp`         | <p>Abre la carpeta de archivos temporales de Windows para eliminar datos acumulados e innecesarios que ocupan espacio en el disco.  </p><p></p><p><img src=".gitbook/assets/unknown (9).png" alt="" data-size="original"></p><p></p><p><img src=".gitbook/assets/unknown (10).png" alt="" data-size="original"></p> |
-| `cmd`          | <p>Ejecuta comandos de texto y permite controlar funciones de Windows sin usar el ratón.   </p><p></p><p><img src=".gitbook/assets/unknown (11).png" alt="" data-size="original"></p><p>    </p><p><img src=".gitbook/assets/unknown (12).png" alt="" data-size="original"></p>                                     |
-| `msconfig`     | <p>Abre la herramienta de configuración del sistema en Windows.  </p><p>  </p><p><img src=".gitbook/assets/unknown (13).png" alt="" data-size="original"></p><p></p><p><img src=".gitbook/assets/unknown (14).png" alt="" data-size="original"></p>                                                                 |
-| `regedit`      | <p>Abre el Editor del Registro de Windows.   </p><p></p><p><img src=".gitbook/assets/unknown (15).png" alt="" data-size="original"></p><p></p><p><img src=".gitbook/assets/unknown (16).png" alt="" data-size="original"></p>                                                                                       |
-| `services.msc` | <p>Abre la consola del administrador de servicios de Windows.  </p><p></p><p><img src=".gitbook/assets/unknown (20).png" alt="" data-size="original"></p><p></p><p><img src=".gitbook/assets/unknown (19).png" alt="" data-size="original"></p><p> </p>                                                             |
+| Comando        | Utilidad                                                                                                                                                                                                                                                                                                                  |
+| -------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| `temp`         | <p>Abre la carpeta de archivos temporales de Windows para eliminar datos acumulados e innecesarios que ocupan espacio en el disco.  </p><p></p><p><img src="../.gitbook/assets/unknown (9).png" alt="" data-size="original"></p><p></p><p><img src="../.gitbook/assets/unknown (10).png" alt="" data-size="original"></p> |
+| `cmd`          | <p>Ejecuta comandos de texto y permite controlar funciones de Windows sin usar el ratón.   </p><p></p><p><img src="../.gitbook/assets/unknown (11).png" alt="" data-size="original"></p><p>    </p><p><img src="../.gitbook/assets/unknown (12).png" alt="" data-size="original"></p>                                     |
+| `msconfig`     | <p>Abre la herramienta de configuración del sistema en Windows.  </p><p>  </p><p><img src="../.gitbook/assets/unknown (13).png" alt="" data-size="original"></p><p></p><p><img src="../.gitbook/assets/unknown (14).png" alt="" data-size="original"></p>                                                                 |
+| `regedit`      | <p>Abre el Editor del Registro de Windows.   </p><p></p><p><img src="../.gitbook/assets/unknown (15).png" alt="" data-size="original"></p><p></p><p><img src="../.gitbook/assets/unknown (16).png" alt="" data-size="original"></p>                                                                                       |
+| `services.msc` | <p>Abre la consola del administrador de servicios de Windows.  </p><p></p><p><img src="../.gitbook/assets/unknown (20).png" alt="" data-size="original"></p><p></p><p><img src="../.gitbook/assets/unknown (19).png" alt="" data-size="original"></p><p> </p>                                                             |
 
 ## 3. Aplicaciones \[0,5 puntos]
 
@@ -187,19 +187,19 @@ La utilidad Winutils permite instalar varias aplicaciones de una vez.
 
 1. **Acceso a Winutils.** Acceder al entorno mediante el comando de ejecución correspondiente en PowerShell con privilegios de administrador, o mediante su interfaz orientada a la gestión de paquetes y selección de utilidades («Tweaks & Apps»).
 
-<img src=".gitbook/assets/unknown (21).png" alt="" height="332" width="552">
+<img src="../.gitbook/assets/unknown (21).png" alt="" height="332" width="552">
 
 2. **Selección de aplicaciones.** En el catálogo de software, marcar las aplicaciones necesarias para el ciclo, como 7-Zip, Notepad++, Git, Visual Studio Code, VirtualBox, Docker, etc.
 
-<img src=".gitbook/assets/unknown (22).png" alt="" height="288" width="552">
+<img src="../.gitbook/assets/unknown (22).png" alt="" height="288" width="552">
 
 3. **Ejecución de la instalación automatizada.** Una vez seleccionadas las aplicaciones, pulsar el botón de instalación o ejecutar el comando de despliegue. La herramienta procesa la cola de paquetes, descargándolos e instalándolos secuencialmente y de forma desatendida en segundo plano.
 
-<img src=".gitbook/assets/unknown (23).png" alt="" height="261" width="262">
+<img src="../.gitbook/assets/unknown (23).png" alt="" height="261" width="262">
 
 4. **Identificación de errores y resolución.** Durante una instalación por lotes puede fallar alguna aplicación si el repositorio remoto sufre interrupciones o si el paquete necesita dependencias que no pueden resolverse automáticamente, por ejemplo, servicios de virtualización o reinicios pendientes. Winutils muestra un aviso en la consola o en el registro. La solución aplicada consiste en omitir el paquete conflictivo de la instalación masiva e instalarlo manualmente o de forma individual después.
 
-<img src=".gitbook/assets/unknown (24).png" alt="" height="313" width="552">
+<img src="../.gitbook/assets/unknown (24).png" alt="" height="313" width="552">
 
 ### 3.2. Comando winget \[1,5 puntos]
 
@@ -225,13 +225,13 @@ Filtra la lista de aplicaciones instaladas para mostrar exclusivamente aquellas 
 
 Añadir el modificador de ayuda `--help` o `-?` al final del comando o subcomando.
 
-<img src=".gitbook/assets/unknown (25).png" alt="" height="144" width="552">
+<img src="../.gitbook/assets/unknown (25).png" alt="" height="144" width="552">
 
-<img src=".gitbook/assets/unknown (28).png" alt="" height="24" width="495">
+<img src="../.gitbook/assets/unknown (28).png" alt="" height="24" width="495">
 
-<img src=".gitbook/assets/unknown (29).png" alt="" height="167" width="552">
+<img src="../.gitbook/assets/unknown (29).png" alt="" height="167" width="552">
 
-<img src=".gitbook/assets/unknown (30).png" alt="" height="291" width="552">
+<img src="../.gitbook/assets/unknown (30).png" alt="" height="291" width="552">
 
 ## 4. Polémicas de Windows 11 \[1,5 puntos]
 
