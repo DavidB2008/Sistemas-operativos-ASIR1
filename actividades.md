@@ -92,13 +92,32 @@ Crear una tarea básica de desfragmentación con estos requisitos:
 * Ejecutar solo cuando el usuario haya iniciado sesión.
 * Ejecutar con los privilegios más altos.
 
+<img src=".gitbook/assets/unknown.png" alt="" height="150" width="285">
+
+<img src=".gitbook/assets/unknown (2).png" alt="" height="249" width="348">
+
 **Proceso paso a paso:**
 
 1. **Abrir el Programador de tareas.** Pulsar **Windows + R**, escribir `taskschd.msc` y pulsar Aceptar.
 2. **Crear una tarea básica.** En el panel de la derecha, seleccionar «Crear tarea básica». En el campo Nombre, introducir, por ejemplo, **desfragmentación semanal**. La descripción es opcional; después, pulsar Siguiente.
+
+<img src=".gitbook/assets/unknown (3).png" alt="" height="366" width="524">
+
 3. **Configurar el desencadenador.** Seleccionar «Semanalmente». Configurar la fecha de inicio, establecer la hora en **00:00:00** y seleccionar únicamente el día **Domingo**. Pulsar Siguiente.
+
+<img src=".gitbook/assets/unknown (4).png" alt="" height="326" width="470">
+
+<img src=".gitbook/assets/unknown (5).png" alt="" height="335" width="481">
+
 4. **Configurar la acción.** Seleccionar «Iniciar un programa». En «Programa o script», introducir `C:\Windows\System32\Defrag.exe`. En «Agregar argumentos (opcional)», escribir `-c`, que indica que debe analizar y desfragmentar todos los volúmenes del sistema. Pulsar Siguiente.
+
+<img src=".gitbook/assets/unknown (6).png" alt="" height="306" width="443">
+
 5. **Configurar privilegios y condiciones.** Marcar la opción para abrir las propiedades avanzadas al finalizar. En la pestaña General, configurar que se ejecute solo cuando el usuario haya iniciado sesión y activar «Ejecutar con los privilegios más altos». Pulsar Aceptar para guardar la tarea.
+
+<img src=".gitbook/assets/unknown (7).png" alt="" height="295" width="428">
+
+
 
 ### 2.2. Preguntas sobre desfragmentación \[2 puntos]
 
