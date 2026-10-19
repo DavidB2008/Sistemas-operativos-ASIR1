@@ -156,17 +156,13 @@ No, no es lo mismo. La desfragmentación reorganiza bloques de datos dentro de u
 
 Windows + R permite acceder a programas del sistema y aplicaciones. Comprobar qué utilidades abren los siguientes comandos y adjuntar una captura del resultado:
 
-| Comando        | Utilidad                                                                                                                        |
-| -------------- | ------------------------------------------------------------------------------------------------------------------------------- |
-| `temp`         | Abre la carpeta de archivos temporales de Windows para eliminar datos acumulados e innecesarios que ocupan espacio en el disco. |
-| `cmd`          | Ejecuta comandos de texto y permite controlar funciones de Windows sin usar el ratón.                                           |
-| `msconfig`     | Abre la herramienta de configuración del sistema en Windows.                                                                    |
-| `regedit`      | Abre el Editor del Registro de Windows.                                                                                         |
-| `services.msc` | Abre la consola del administrador de servicios de Windows.                                                                      |
-
-> **Capturas pendientes:** el documento original incluye espacios para las capturas de las utilidades abiertas con estos comandos.
-
-***
+| Comando        | Utilidad                                                                                                                                                                                                                                                                                                            |
+| -------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| `temp`         | <p>Abre la carpeta de archivos temporales de Windows para eliminar datos acumulados e innecesarios que ocupan espacio en el disco.  </p><p></p><p><img src=".gitbook/assets/unknown (9).png" alt="" data-size="original"></p><p></p><p><img src=".gitbook/assets/unknown (10).png" alt="" data-size="original"></p> |
+| `cmd`          | <p>Ejecuta comandos de texto y permite controlar funciones de Windows sin usar el ratón.   </p><p></p><p><img src=".gitbook/assets/unknown (11).png" alt="" data-size="original"></p><p>    </p><p><img src=".gitbook/assets/unknown (12).png" alt="" data-size="original"></p>                                     |
+| `msconfig`     | <p>Abre la herramienta de configuración del sistema en Windows.  </p><p>  </p><p><img src=".gitbook/assets/unknown (13).png" alt="" data-size="original"></p><p></p><p><img src=".gitbook/assets/unknown (14).png" alt="" data-size="original"></p>                                                                 |
+| `regedit`      | <p>Abre el Editor del Registro de Windows.   </p><p></p><p><img src=".gitbook/assets/unknown (15).png" alt="" data-size="original"></p><p></p><p><img src=".gitbook/assets/unknown (16).png" alt="" data-size="original"></p>                                                                                       |
+| `services.msc` | <p>Abre la consola del administrador de servicios de Windows.  </p><p></p><p><img src=".gitbook/assets/unknown (20).png" alt="" data-size="original"></p><p></p><p><img src=".gitbook/assets/unknown (19).png" alt="" data-size="original"></p><p> </p>                                                             |
 
 ## 3. Aplicaciones \[0,5 puntos]
 
@@ -190,11 +186,20 @@ La utilidad Winutils permite instalar varias aplicaciones de una vez.
 **Guía paso a paso:**
 
 1. **Acceso a Winutils.** Acceder al entorno mediante el comando de ejecución correspondiente en PowerShell con privilegios de administrador, o mediante su interfaz orientada a la gestión de paquetes y selección de utilidades («Tweaks & Apps»).
+
+<img src=".gitbook/assets/unknown (21).png" alt="" height="332" width="552">
+
 2. **Selección de aplicaciones.** En el catálogo de software, marcar las aplicaciones necesarias para el ciclo, como 7-Zip, Notepad++, Git, Visual Studio Code, VirtualBox, Docker, etc.
+
+<img src=".gitbook/assets/unknown (22).png" alt="" height="288" width="552">
+
 3. **Ejecución de la instalación automatizada.** Una vez seleccionadas las aplicaciones, pulsar el botón de instalación o ejecutar el comando de despliegue. La herramienta procesa la cola de paquetes, descargándolos e instalándolos secuencialmente y de forma desatendida en segundo plano.
+
+<img src=".gitbook/assets/unknown (23).png" alt="" height="261" width="262">
+
 4. **Identificación de errores y resolución.** Durante una instalación por lotes puede fallar alguna aplicación si el repositorio remoto sufre interrupciones o si el paquete necesita dependencias que no pueden resolverse automáticamente, por ejemplo, servicios de virtualización o reinicios pendientes. Winutils muestra un aviso en la consola o en el registro. La solución aplicada consiste en omitir el paquete conflictivo de la instalación masiva e instalarlo manualmente o de forma individual después.
 
-> **Captura pendiente:** el documento original incluye una captura del error detectado durante la instalación.
+<img src=".gitbook/assets/unknown (24).png" alt="" height="313" width="552">
 
 ### 3.2. Comando winget \[1,5 puntos]
 
