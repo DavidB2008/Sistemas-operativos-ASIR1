@@ -233,6 +233,8 @@ Añadir el modificador de ayuda `--help` o `-?` al final del comando o subcomand
 
 <img src=".gitbook/assets/unknown (30).png" alt="" height="291" width="552">
 
+##
+
 ## 4. Polémicas de Windows 11 \[1,5 puntos]
 
 Noticias de referencia indicadas en el documento:
