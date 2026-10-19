@@ -225,9 +225,13 @@ Filtra la lista de aplicaciones instaladas para mostrar exclusivamente aquellas 
 
 Añadir el modificador de ayuda `--help` o `-?` al final del comando o subcomando.
 
-> **Capturas pendientes:** el enunciado original solicita adjuntar capturas y pegar el listado obtenido con `| clip`; ese listado no aparece como texto en el documento recibido.
+<img src=".gitbook/assets/unknown (25).png" alt="" height="144" width="552">
 
-***
+<img src=".gitbook/assets/unknown (28).png" alt="" height="24" width="495">
+
+<img src=".gitbook/assets/unknown (29).png" alt="" height="167" width="552">
+
+<img src=".gitbook/assets/unknown (30).png" alt="" height="291" width="552">
 
 ## 4. Polémicas de Windows 11 \[1,5 puntos]
 
