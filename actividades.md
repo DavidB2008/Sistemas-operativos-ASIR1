@@ -64,7 +64,7 @@ Con la tecla **F2**.
 
 **Adjunta una fotografía** de la pantalla de BIOS/UEFI, tomada con el móvil si se desea, procurando que se vea bien y que no aparezca nada más.
 
-> **Captura pendiente:** en el documento original se reserva un espacio para la fotografía de la BIOS/UEFI.
+<img src=".gitbook/assets/unknown.jpeg" alt="" height="252" width="456">
 
 **Menciona cuatro características o utilidades significativas y configurables de la BIOS/UEFI:**
 
